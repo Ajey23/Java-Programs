@@ -2,10 +2,12 @@ public class Ruff {
 
     public static void main(String[] args){
 
-        String FirstString = "My name is ajay";
-        System.out.println("Before Changing The Value = " + FirstString);
+        int score = 100;
+        if(score > 99)
+        {
+            System.out.println("you got the high score!!");
+            score = 0;
+        }
 
-        FirstString = "hello";
-        System.out.println("After Changing The Value = " + FirstString);
     }
 }
