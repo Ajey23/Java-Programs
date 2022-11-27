@@ -10,6 +10,6 @@ public class InterestRate {
     }
     public static double CalculateInterest(double amount, double interestRate) {
 
-        return (amount * (interestRate / 100));
+        return (amount * (interestRate/100));
     }
 }
